@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+# displays one letter at a time
+from sense_hat import SenseHat
+sense = SenseHat()
+import time
+
+red = (255, 0, 0)
+white = (255, 255, 255)
+blue = (0, 0, 255)
+
+sense.show_letter("H", red)
+time.sleep(.3)
+sense.show_letter("i", white)
+time.sleep(.3)
+sense.show_letter("y", blue)
+time.sleep(.3)
+sense.show_letter("a", red)
+time.sleep(.3)
+sense.show_letter("l", white)
+time.sleep(.3)
+sense.show_letter("a", blue)
+time.sleep(.3)
+sense.show_letter("z", red)
+time.sleep(.3)
+sense.show_letter("y", white)
+time.sleep(.3)
+sense.show_letter("m", blue)
+time.sleep(.3)
+sense.show_letter("f", blue)
+time.sleep(.3)
+time.sleep(.3)
+sense.show_letter("e", red)
+time.sleep(.3)
+sense.show_letter("r", white)
+time.sleep(.3)
+sense.show_letter("!", blue)
+time.sleep(.3)
+sense.clear()
